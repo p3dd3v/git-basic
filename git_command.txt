@@ -47,10 +47,11 @@ Update file on github
 
 // Git conflict //
 
-git pull
+git pull origin master
 
 git add .
 git commit -m "msg"
 git push origin master
 
 // End //
+
