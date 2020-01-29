@@ -28,3 +28,16 @@ git merge : merge fast forward
 git diff develop : check working branch with branch develop
 
 create file name = .gitignore : not insert file or folder to repository
+
+git remote add origin URL
+git push origin master : Update branch master to Remote 
+git push origin develop : Update branch develop to Remote
+git push --delete origin develop : Delete branch develop from Remote
+
+git fetch --all : Update All Branch from Remote
+git fetch origin master : Update Branch master from Remote
+
+git pull = fetch + merge
+git pull origin master 
+
+git clone URL : copy git 
