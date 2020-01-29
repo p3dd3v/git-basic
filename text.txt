@@ -9,3 +9,5 @@ git log : log
 
 git clean -n : list file untracked
 git clean -df : delete file untracked
+
+git reset --hard <commit_id>
