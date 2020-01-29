@@ -40,4 +40,4 @@ git fetch origin master : Update Branch master from Remote
 git pull = fetch + merge
 git pull origin master 
 
-git clone URL : copy git 
+git clone URL : copy git from URL
