@@ -41,3 +41,5 @@ git pull = fetch + merge
 git pull origin master 
 
 git clone URL : copy git from URL
+
+Update file on github
