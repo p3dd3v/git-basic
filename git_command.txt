@@ -26,3 +26,5 @@ git merge --no-ff : merge no fast forward
 git merge : merge fast forward
 
 git diff develop : check working branch with branch develop
+
+create file name = .gitignore : not insert file or folder to repository
