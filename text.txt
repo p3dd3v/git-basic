@@ -1,4 +1,4 @@
-Version Control with GIT
+Version Control with GIT 11
 git add <file_name> : add to staged
 git add . : add all file to staged
 git reset : back to untracked
