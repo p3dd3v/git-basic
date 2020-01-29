@@ -10,9 +10,14 @@ git log : log
 git clean -n : show file untracked
 git clean -df : delete file untracked
 
-git reset --hard <commit_id> : return file from commit_id
+git reset --hard commit_id : return file from commit_id to untracked
+git reset --soft commit_id : return file from commit_id to staged
+git reset --mixed develop : 
 
 git branch : show branch
 git branch --all : show all branch
 git branch develop : create branch name = develop
 git branch --delete develop : delete branch name = develop
+git checkout commit_id : swap to branch commit_id
+git checkout -b test : create branch name = test and swap to branch test
+git checkout branch_name file_name : select some file from another branch and merge with working branch
